@@ -1,0 +1,61 @@
+{
+    "id": "cae66b7e-791b-11e7-b4d8-3464a91febf3",
+    "orderKey": "D41D8CD98F00B204E9800998ECF8427E",
+    "publicReference": "JK4H8D",
+    "platform": "Thuisbezorgd.nl",
+    "restaurantId": "1234",
+    "orderDate": "2017-08-04T19:15:00Z",
+    "requestedDeliveryTime": "2017-08-04T19:45:00Z",
+    "orderType": "delivery",
+    "courier": "restaurant",
+    "deliveryCosts": 1.0,
+    "totalPrice": 4.0,
+    "totalDiscount": -0.5,
+    "isPaid": true,
+    "paymentMethod": "online",
+    "customer": {
+        "name": "Pieter Post",
+        "companyName": "PostNL",
+        "phoneNumber": "061234568",
+        "street": "Brouwerijstraat",
+        "streetNumber": "10",
+        "postalCode": "7523XD",
+        "city": "Enschede",
+        "extraAddressInfo": "floor:2"
+    },
+    "products": [
+        {
+            "id": "1",
+            "name": "Dikke frieten",
+            "category": "Patatten",
+            "count": 1,
+            "price": 2.0,
+            "remark": "Extra knapperig aub",
+            "sideDishes": [
+                {
+                    "id": "2",
+                    "name": "Joppiesaus",
+                    "count": 1,
+                    "price": 0.0
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Pikanto",
+            "category": "Vleisch",
+            "count": 1,
+            "price": 1.5
+        }
+    ],
+    "discounts": [
+        {
+            "name": "Weekendactie dikke frieten",
+            "count": 1,
+            "price": -0.5
+        }
+    ],
+    "remark": "Nicht klingeln bitte",
+    "version": "v2",
+    "clientKey": "foo123"
+}
