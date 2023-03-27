@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use TakeawayModels\Customer;
-use TakeawayModels\Discount;
-use TakeawayModels\Order;
-use TakeawayModels\Product;
+use TakeawayModels\Order\Customer;
+use TakeawayModels\Order\Discount;
+use TakeawayModels\Order\Order;
+use TakeawayModels\Order\Product;
 
 class OrderTest extends \Orchestra\Testbench\TestCase
 {

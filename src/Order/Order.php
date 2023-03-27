@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TakeawayModels;
+namespace TakeawayModels\Order;
 
 use CastModels\Model;
 use Illuminate\Support\Collection;
@@ -26,9 +26,9 @@ class Order extends Model
     public string $paymentMethod;
     public float $paysWith;
     public Customer $customer;
-    /** \TakeawayModels\Product */
+    /** \TakeawayModels\Order\Product */
     public Collection $products;
-    /** \TakeawayModels\Discount */
+    /** \TakeawayModels\Order\Discount */
     public Collection $discounts;
     public string $remark;
     public string $version;

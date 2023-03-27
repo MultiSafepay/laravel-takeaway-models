@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TakeawayModels\Enum;
 
-enum OrderType: string
+enum PaymentMethod: string
 {
     use Helper;
 

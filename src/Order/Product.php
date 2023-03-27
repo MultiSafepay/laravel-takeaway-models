@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TakeawayModels;
+namespace TakeawayModels\Order;
 
 use CastModels\Model;
 use Illuminate\Support\Collection;
@@ -16,6 +16,6 @@ class Product extends Model
     public float $price;
     public string $remark;
     public string $city;
-    /** \TakeawayModels\Sidedish */
+    /** \TakeawayModels\Order\Sidedish */
     public Collection $sideDishes;
 }
